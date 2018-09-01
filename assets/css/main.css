@@ -3110,10 +3110,11 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0;
+		padding: 5px;
 		background: #6cc091;
 		color: #fff;
 		text-align: center;
+		position: relative;
 	}
 
 		#footer h3 {
@@ -3130,7 +3131,7 @@
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			margin: 0 0 2em 0;
-			padding: 0;
+			padding: 0px;
 		}
 
 			#footer .copyright a {
