@@ -1,0 +1,18 @@
+body 
+	{
+	background-color: black;
+	}
+
+p
+	{
+	
+	color:white;
+	font-family: Impact;
+	font-size: 100px;
+	border: 2px solid white;
+	}
+
+table
+	{
+	width:70%;
+	}
