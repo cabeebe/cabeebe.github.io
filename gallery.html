@@ -33,7 +33,15 @@
 						<h2>GALLERY</h2>
 						<p>Memories within photos.</p>
 					</header>
-					<table width= "100%">
+					
+					
+					
+				<!-- Button 2016 -->	
+					<center><p id="show"><button type = "button" onclick="myFunction1()" >2016</button></p><center>
+					<center><p id="hide" style="display: none;"><button type = "button" onclick="myFunction2()">Hide</button></p>
+					
+					<br>
+					<div id="images" style="background-color:dimgrey; outline-color:black; visibility:hidden;"><table style="outline:hidden;" width= "100%">
 					<tr>
 						<td><center><img src="images/used/winnbe_1.jpg" alt="Pic 01" width=100%/></td></center>
 					
@@ -69,15 +77,23 @@
 						
 						<td><center><img src="images/used/winnbe_1.jpg" alt="Pic 01" width=100%/></td></center>
 					</tr>
-					</table>
+					</table></div>
 					
-					<p></p>
-
-				
-					<p></p>
-
-					<p></p>
-
+					<script>
+						function myFunction1() {
+						
+    					document.getElementById("images").style.visibility = "visible";
+						document.getElementById("hide").style.display = "block";
+						document.getElementById("show").style.display = "none";
+						}
+						function myFunction2() {
+						document.getElementById("images").style.visibility= "hidden";
+						document.getElementById("show").style.display = "block";
+						document.getElementById("hide").style.display = "none";				
+						}
+					</script>
+					
+			
 				</div>
 			</section>
 		
